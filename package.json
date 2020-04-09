@@ -1,0 +1,23 @@
+{
+  "name": "yangfan-npm-publish-test",
+  "version": "1.0.2",
+  "description": "test for npm publish",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangfan86/yangfan-npm-publish-test.git"
+  },
+  "keywords": [
+    "publish",
+    "test"
+  ],
+  "author": "yangfan86",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yangfan86/yangfan-npm-publish-test/issues"
+  },
+  "homepage": "https://github.com/yangfan86/yangfan-npm-publish-test#readme"
+}
