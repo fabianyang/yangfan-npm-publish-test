@@ -1,9 +1,12 @@
 {
-    "compilerOptions": {
-      "target": "es5",
-      "module": "commonjs",
-      "declaration": true,
-      "outDir": "./dist",
-      "strict": true
-    }
+"compilerOptions": {
+  "module": "commonjs",
+  "declaration": true,
+  "removeComments": false,
+  "target": "es6",
+  "sourceMap": true,
+  "outDir": "./dist"
+},
+"include": ["src/**/*"],
+"exclude": ["node_modules"]
 }
