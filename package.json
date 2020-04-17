@@ -1,6 +1,6 @@
 {
   "name": "yangfan-npm-publish-test",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "description": "test for npm publish",
   "main": "dist/index.js",
   "scripts": {
