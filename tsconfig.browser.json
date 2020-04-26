@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+      "module": "UMD",
+      "target": "es5",
+      "outDir": "./browser/lib",
+    },
+    "include": ["browser"],
+    "exclude": ["node_modules"]
+}
