@@ -5,8 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
-    "demo": "cd demo && ts-node",
-    "demo:debug": "cd demo && node --inspect-brk -r ts-node/register",
+    "ts:node": "ts-node",
     "prepublish": "npm run build && npm run release",
     "release": "standard-version"
   },
