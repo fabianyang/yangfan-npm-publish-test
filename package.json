@@ -1,30 +1,25 @@
 {
   "name": "yangfan-npm-publish-test",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "test for npm publish",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "ts:node": "ts-node",
     "prepublish": "npm run build && npm run release",
-    "release": "standard-version"
+    "release": "standard-version",
+    "browser": "tsc && http-server -o",
+    "node": "ts-node node/app"
   },
   "dependencies": {
-    "change-case": "^3.1.0",
-    "core-decorators": "^0.20.0",
-    "lodash": "^4.17.15",
-    "require-all": "^3.0.0"
+    "lodash": "^4.17.15"
   },
   "devDependencies": {
-    "@types/koa": "^2.0.52",
-    "@types/node": "^12.12.14",
-    "@typescript-eslint/parser": "^2.9.0",
-    "eslint": "^6.7.1",
-    "eslint-config-qunar-typescript": "0.0.4",
+    "http-server": "^0.12.1",
+    "typescript": "^3.8.3",
     "koa": "^2.11.0",
     "standard-version": "^7.0.1",
-    "ts-node": "^8.5.2",
-    "typescript": "^3.7.2"
+    "ts-node": "^8.5.2"
   },
   "files": [
     "dist",
