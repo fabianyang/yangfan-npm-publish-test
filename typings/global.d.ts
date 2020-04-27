@@ -22,3 +22,11 @@ interface TestHelmet {
     // htags: HelmetTags
     htags: typeof ReactHelmet.canUseDOM
 }
+
+/**
+ * 支持 glob 通配符声明 Module
+ */
+declare module '*.png' {
+    const src: string;
+    export default src;
+}

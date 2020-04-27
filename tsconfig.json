@@ -6,7 +6,9 @@
     "target": "es6",
     "sourceMap": false,
     "outDir": "./dist",
-    "allowJs": true
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true
   },
   "include": ["src", "typings", "browser", "node"],
   "exclude": ["node_modules"]
