@@ -4,8 +4,8 @@
   "description": "test for npm publish",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc",
-    "build:browser": "tsc -p tsconfig.browser.json ",
+    "build": "tsc -p tsconfig.build.json",
+    "build:browser": "tsc -p tsconfig.browser.json",
     "ts:node": "ts-node",
     "prepublish": "npm run build && npm run release",
     "release": "standard-version",
@@ -13,10 +13,12 @@
     "node": "npm run ts:node node/app"
   },
   "dependencies": {
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.15",
+    "react-helmet": "^6.0.0"
   },
   "devDependencies": {
     "@types/node": "^13.13.2",
+    "@types/react-helmet": "^5.0.15",
     "http-server": "^0.12.1",
     "koa": "^2.11.0",
     "standard-version": "^7.0.1",

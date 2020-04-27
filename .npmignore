@@ -19,6 +19,9 @@ src
 test
 demo
 examples
+browser
+node
+shared
 CHANGELOG.md
 .travis.yml
 .editorconfig

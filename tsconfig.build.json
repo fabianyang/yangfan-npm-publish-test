@@ -8,6 +8,6 @@
     "outDir": "./dist",
     "allowJs": true
   },
-  "include": ["src", "typings", "browser", "node"],
+  "include": ["src", "typings"],
   "exclude": ["node_modules"]
 }

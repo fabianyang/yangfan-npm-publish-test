@@ -4,6 +4,6 @@
       "target": "es5",
       "outDir": "./browser/lib",
     },
-    "include": ["browser"],
+    "include": ["browser", "typings"],
     "exclude": ["node_modules"]
 }
