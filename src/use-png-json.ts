@@ -6,10 +6,10 @@ import png from '../asset/transpiling_iqylza.png';
  * resolveJsonModule
  * 第二种方式：全局声明 module
  */
-import json from '../asset/data.json';
+// import json from '../asset/data.json';
 
-export {
-    png,
-    json
-}
+// export {
+//     png,
+//     json
+// }
 
